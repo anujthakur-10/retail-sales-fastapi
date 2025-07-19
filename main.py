@@ -8,7 +8,7 @@ import uvicorn
 app = FastAPI()
 
 # Load model
-model = load_model("model/lstm_model.h5")
+model = load_model("lstm_model.h5")
 
 # Define input schema
 from typing import List
